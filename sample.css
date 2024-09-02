@@ -1,0 +1,48 @@
+*{
+ margin: auto;	
+}
+body {
+  background-color: #E8D9CD; 
+  margin: auto;
+}
+p{
+	font-size: 16px;
+	margin: 10px;
+}
+section {
+	margin: 1rem;
+}
+main{
+	padding: 15px;
+}
+.navbar {
+background-color: #223030;
+overflow: hidden;
+}
+.navbar a {
+float: left;
+color: #EFEFE9;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.navbar a:hover {
+background-color: #959D90;
+color: #523D35;
+}
+.header {
+  background-image: url("group pic.jpg");
+  background-color: #959D90;
+  width: 100%;
+  height: auto;
+}
+.header > * {
+  text-align: center;
+  font-family: georgia;
+  margin-top: 0;
+  padding-top: 19px;
+}
+hr{
+border: 3px solid #523D35;
+}
