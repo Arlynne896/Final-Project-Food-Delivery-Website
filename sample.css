@@ -9,7 +9,7 @@ body {
   font-family: Georgia, serif;
 }
 
-p, li{
+p, li {
   font-size: 16px;
   margin: 1rem 0;
   line-height: 1.875;
@@ -20,11 +20,12 @@ section {
   margin: 1rem;
 }
 
-main {
+main, footer {
   padding: 15px;
   width: 100%;
   background-color: #E8D9CD;
-  margin-top: 100vh; /* Ensure main content starts below the header */
+  position: relative; 
+  z-index: 2; 
 }
 
 footer {
@@ -40,7 +41,7 @@ main h2 {
   letter-spacing: 4px;
 }
 
-main p{
+main p {
   padding: 2% 0;
 }
 
@@ -50,7 +51,7 @@ main p{
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2; /* Ensures navbar appears above the header */
+  z-index: 3;
 }
 
 .navbar a {
@@ -73,9 +74,10 @@ main p{
   background-position: center;
   height: 100vh;
   width: 100%;
-  position: absolute; /* Changed to absolute to prevent covering other content */
+  position: fixed;
   top: 0;
-  z-index: 1; /* Ensures header is below navbar but above main content */
+  left: 0;
+  z-index: 1; 
 }
 
 .header::after {
@@ -102,5 +104,7 @@ main p{
 }
 
 hr {
-  border: 3px solid #523D35;
+	border: 0;
+	border: 3px solid #523D35;
+	background-color: transparent;
 }

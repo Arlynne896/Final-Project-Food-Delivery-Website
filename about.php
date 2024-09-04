@@ -20,7 +20,7 @@
 		<div class="header">
 			<h1>About Us<br></h1><h3 style="font-size:35px;">The moment you tap, we’re already there</h3>
 		</div>
-		<main>
+		<main style="margin-top: 100vh;">
 			<article>
 				<p>With <b>[Website Name]</b> at your service, just one tap away and we’ve already zapped/arrived/teleported right at your doorstep! Too fast for you to react. We’re not just a food delivery service; 
 				we're your culinary teleportation hub. Our mission is to make sure that you never have to wait too long for a delicious meal. Whether you’re craving comfort food, exploring exotic cuisines, or just need a 
