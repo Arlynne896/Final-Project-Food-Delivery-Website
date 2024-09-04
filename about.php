@@ -18,7 +18,7 @@
 			</div>
 		</nav>
 		<div class="header">
-			<h1>About Us<br></h1><h3>The moment you tap, we’re already there</h3>
+			<h1>About Us<br></h1><h3 style="font-size:35px;">The moment you tap, we’re already there</h3>
 		</div>
 		<main>
 			<article>
@@ -36,7 +36,7 @@
 		
 			<section>
 				<h2>Our Promise</h2>
-				<ul>
+				<ul style="padding: 2% 0;">
 					<li><b>Speed</b>: Our delivery system is like a teleportation device for your taste buds. We get your food to you at warp speed, hot and fresh, every single time.</li>
 					<li><b>Tech-Savvy Tastes</b>: From local legends to global sensations, our tech-powered platform brings an array of culinary delights straight to your door. The world of flavors is just a click away.</li>
 					<li><b>Simplicity</b>: Our platform is your digital chef’s assistant. A few taps, and your meal is virtually teleported to your table—no fuss, no hassle!</li>
@@ -45,7 +45,7 @@
 		
 			<section>
 				<h2>Why us?</h2>
-				<ul>
+				<ul style="padding: 2% 0;">
 					<li><b>Instant Gratification</b>: No more waiting in long lines or dealing with traffic. We teleport your meal from the restaurant to your table in no time.</li>
 					<li><b>Tech-Savvy Tastes</b>: From local legends to global sensations, our tech-powered platform brings an array of culinary delights straight to your door. The world of flavors is just a click away.</li>
 					<li><b>Simplicity</b>: Our platform is your digital chef’s assistant. A few taps, and your meal is virtually teleported to your table—no fuss, no hassle!</li>

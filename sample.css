@@ -9,9 +9,11 @@ body {
   font-family: Georgia, serif;
 }
 
-p {
+p, li{
   font-size: 16px;
   margin: 1rem 0;
+  line-height: 1.875;
+  text-align: justify;
 }
 
 section {
@@ -38,10 +40,8 @@ main h2 {
   letter-spacing: 4px;
 }
 
-main p {
+main p{
   padding: 2% 0;
-  line-height: 1.875; /* Adjusted to 30px line-height */
-  text-align: justify;
 }
 
 .navbar {
