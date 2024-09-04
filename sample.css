@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: #E8D9CD;
   font-family: Georgia, serif;
 }
 
@@ -23,15 +22,9 @@ section {
 main, footer {
   padding: 15px;
   width: 100%;
-  background-color: #E8D9CD;
+  background-color: #F1F3C2;
   position: relative; 
   z-index: 2; 
-}
-
-footer {
-  padding: 15px;
-  width: 100%;
-  background-color: #E8D9CD;
 }
 
 main h2 {
@@ -46,7 +39,7 @@ main p {
 }
 
 .navbar {
-  background-color: #223030;
+  background-color: #CD5C08;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -56,7 +49,7 @@ main p {
 
 .navbar a {
   float: left;
-  color: #EFEFE9;
+  color: #F1F3C2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -64,8 +57,8 @@ main p {
 }
 
 .navbar a:hover {
-  background-color: #959D90;
-  color: #523D35;
+  background-color: #E8B86D;
+  color: #1A3636;
 }
 
 .header {
@@ -78,6 +71,11 @@ main p {
   top: 0;
   left: 0;
   z-index: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .header::after {
@@ -87,7 +85,7 @@ main p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #130f40;
+  background: #322C2B;
   opacity: .7;
   z-index: -1;
 }
@@ -100,11 +98,9 @@ main p {
 .header > * {
   text-align: center;
   padding-top: 19px;
-  color: white;
+  color: #F1F3C2;
 }
 
 hr {
-	border: 0;
-	border: 3px solid #523D35;
-	background-color: transparent;
+	border: 3px solid #A1D6B2;
 }

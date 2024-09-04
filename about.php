@@ -18,18 +18,18 @@
 			</div>
 		</nav>
 		<div class="header">
-			<h1>About Us<br></h1><h3 style="font-size:35px;">The moment you tap, we’re already there</h3>
+			<h1>About Us<br></h1><q style="font-size:35px;">The moment you tap, we’re already there</q>
 		</div>
 		<main style="margin-top: 100vh;">
 			<article>
-				<p>With <b>[Website Name]</b> at your service, just one tap away and we’ve already zapped/arrived/teleported right at your doorstep! Too fast for you to react. We’re not just a food delivery service; 
+				<p>With <b>Portion Port</b> at your service, just one tap away and we’ve already teleported right at your doorstep! Too fast for you to react. We’re not just a food delivery service; 
 				we're your culinary teleportation hub. Our mission is to make sure that you never have to wait too long for a delicious meal. Whether you’re craving comfort food, exploring exotic cuisines, or just need a 
 				quick snack, we’ve got you covered. </p>
 			</article>
 		
 			<section>
 				<h2>Our Story</h2>
-				<p>Born out of a love for a quick delicious meal and a passion for technology, [Website Name] was created to bridge the gap between you and the your cravings. 
+				<p>Born out of a love for a quick delicious meal and a passion for technology, <strong>Portion Port</strong> was created to bridge the gap between you and the your cravings. 
 				Life can be hectic, cooking and going out to eat can be tedious, and we believe that your meal shouldn’t add to the stress. That’s why our platform delivers meals 
 				at the speed of light, ensuring your food arrives with teleportation-like precision, preserving its quality and freshness as if it was just served. </p>
 			</section>
@@ -53,12 +53,12 @@
 			</section>
 		
 			<span>
-				<p>Join us in revolutionizing the way you experience food. Whether you're at home, at work, or on the go, [Website Name] is here to satisfy your hunger—instantly.</p>
+				<p>Join us in revolutionizing the way you experience food. Whether you're at home, at work, or on the go, Portion Port is here to satisfy your hunger—instantly.</p>
 			</span>
 		</main>
 		<hr>
 		<footer>
-			<p style="margin-left:30px;"><small>Made by Abalain, Almaida, Catimbang, Cuano & Morante 2024 © Copyright Intended</small></p>
+			<p style="margin-left:15px;"><small>Made by Abalain, Almaida, Catimbang, Cuano & Morante 2024 © Copyright Intended</small></p>
 		</footer>
 	</body>
 </html>
