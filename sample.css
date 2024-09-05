@@ -40,7 +40,7 @@ main p {
 
 .navbar {
   background-color: #CD5C08;
-  overflow: hidden;
+  overflow: visible;
   position: fixed;
   top: 0;
   width: 100%;
@@ -60,7 +60,52 @@ main p {
   background-color: #E8B86D;
   color: #1A3636;
 }
-
+.dropdown{
+	float: left;
+	overflow: visible;
+	position: relative;
+	z-index: 4; 
+}
+.dropdown .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #F1F3C2;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E8B86D;
+   width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5; 
+}
+.dropdown-content a{
+	float: none;
+	color: #F1F3C2;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+}
+.dropdown:hover .dropbtn {
+  background-color: #E8B86D;
+  color: #1A3636;
+}
+.dropdown-content a:hover{
+	background-color: #E8B86D;
+	color: #1A3636;
+}
+.dropdown .dropbtn:hover {
+  background-color: #E8B86D;
+  color: #1A3636;
+}
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
 .header {
   background-image: url("group pic.jpg");
   background-size: cover;
