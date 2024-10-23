@@ -2,10 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>About Us</title>
 		<link href="sample.css" rel="stylesheet"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="icon" type="x-icon" href="Portion Port Logo.png">
 	</head>
 	<body>
 	<nav>
@@ -13,17 +14,17 @@
 			<a class="nav" href="homepage.php">Home</a>
 			<a class="nav" href="about.php">About Us</a>
 			<div class="dropdown">
-				<button class="dropbtn">Partnerships</button>
+				<a href='#' class="dropbtn">Partnership </a>
 				<div class="dropdown-content">
 					<a href="Shops/burger.php">Bur-go Shop</a>
 					<a href="Shops/coffee.php">Coffee Mate</a>
 					<a href="Shops/pizza.php">Homie's Pizza</a>
 					<a href="Shops/sushi.php">Sushi Kitchen</a>
-					<a href="Shops/tea.html">Tastea Shop</a>
+					<a href="Shops/tea.php">Tastea Shop</a>
 				</div>
 			</div>
 			<a class="nav" href="faq.php">Frequently Asked</a>
-			<a class="nav" href="contact.php">Contact Us</a>
+			<a class="nav" href="coms/contact.php">Contact Us</a>
 		</div>
 	</nav>
 		<div class="header">
