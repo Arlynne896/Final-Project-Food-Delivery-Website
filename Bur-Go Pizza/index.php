@@ -17,6 +17,7 @@
             <li><a href="javascript:void(0);" onclick="openPopup()">Order</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
+             <li><a href=".../home.php">Home</a></li>
         </ul>
     </nav>
 
