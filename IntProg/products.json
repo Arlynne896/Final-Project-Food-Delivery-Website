@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "name":"Triple Cheese Pizza",
+        "price": 500,
+        "image": "homiesImg/cheese.webp"
+    },
+    {
+        "id": 2,
+        "name":"Supreme Pizza",
+        "price": 450,
+        "image": "homiesImg/supreme.avif"
+    },
+    {
+        "id": 3,
+        "name":"Greek Pizza",
+        "price": 400,
+        "image":"homiesImg/greekPizza.webp"
+    },
+    {
+        "id": 4,
+        "name":"Hawaiian Pizza ",
+        "price": 400,
+        "image": "homiesImg/hawaiian.png"
+    },
+    {
+        "id": 5,
+        "name":"Pepperoni Pizza",
+        "price": 350,
+        "image": "homiesImg/pepperoni.jpg"
+    },
+    {
+        "id": 6,
+        "name":"Margherita Pizza",
+        "price":350,
+        "image": "homiesImg/margherita.avif"
+    },
+    {
+        "id": 7,
+        "name":"Barbeque Pizza",
+        "price":450,
+        "image": "homiesImg/bbq.avif"
+    },
+    {
+        "id": 8,
+        "name":"Shawarma Pizza",
+        "price": 400,
+        "image": "homiesImg/shawarma.avif"
+    },
+     {
+        "id": 9,
+        "name":"Meaty and Saucy Lasagna",
+        "price": 150,
+        "image": "homiesImg/lasagna.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Crispy Nachos",
+        "price": 150,
+        "image": "homiesImg/nachos.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Bowl of Fried Chicken",
+        "price": 300,
+        "image": "homiesImg/chicken.jpg"
+    }
+    
+
+]
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+   text-decoration: none;
+    color: rgb(63, 3, 3);
+   
+}
+body {
+    background-color: rgb(255, 235, 235);
+}
+
+.navbar {
+    width: 40px;
+    
+   background-color: rgb(0, 106, 198);
+   position:absolute;
+   
+}
+
+li {
+    padding-block: 95px;
+    padding-left: 6px;
+    padding-right: 6px;    
+}
+.content {
+    
+    padding-left: 3%;
+    background-color: blueviolet;
+    height: auto;
+}
+
+.container2 {
+    width:420px;
+    height: 480px;
+    background-color: #371cd1;
+  
+}
+.cartIcon {
+    width: 98%;
+    height:50px;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    background-color: #ffffff;
+    padding-left: 30px;
+}
+.cartIcon .mycart {
+    font-size: 30px;
+    font-weight: bold;
+    color:#930505;
+    }
+    .cartIcon2 {
+        align-items:center;
+        display:flex;
+        background-color: rgb(69, 2, 2);
+        justify-content: space-between;
+        padding: 7px, 10px;
+        border-radius: 3px;
+        width: 50px;
+        height: 22px;
+    
+        padding-right:8px;
+        margin-right: 10px;
+    }
+    .cartIcon2 p{
+        width:17px;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        border-radius: 22px;
+        background-color: #ffffff;
+        color: rgb(45, 0, 0);
+     }
+     .fa {
+        color: rgb(255, 255, 255);
+   }
+
+   .sidebar{
+    
+    width: 25%;
+    border-radius: 5px;
+    background-color: #eee;
+    
+    padding: 15px;
+    text-align: center;
+    
+   
+}
+
+.space {
+    height: 350px;
+}
+
+
+
+.start{
+    
+   background-color: #930505;
+  
+   height:65px;
+   align-items: center;
+   display: flex;
+   padding-left: 39%;
+   border-radius: 3px;
+  
+}
+
+.start p {
+    color: #ffffff;
+}
+
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+  
+ 
+}
+
+.ss {
+    height:350px;
+}
+
