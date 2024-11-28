@@ -100,7 +100,7 @@ h1 {
 }
 
 hr {
-	border: 3px solid #A1D6B2;
+	border: 3px solid #24393a;
 }
 
 .container {
@@ -178,18 +178,20 @@ input[type="submit"]:hover {
 	background-color: #a0a8b2;
 	color: #006884;
 }
-hr {
-	border: 3px solid #A1D6B2;
-}
 footer {
-	text-align: center;
-	padding: 1rem;
-	background-color: #97bcc7;
-	color: #FFFFFF;
-    clear: both;
+  padding: 15px;
+  width: 100%;
+  background-color: #006884;
+  position: relative; 
+  z-index: 2; 
+  color: #FFFFFF;
 }
 .title, p{
 	font-size: 20px;
+}
+
+footer p{
+	margin-left:15px;
 }
 
 .icon-container {

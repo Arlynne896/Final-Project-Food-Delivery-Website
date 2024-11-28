@@ -15,11 +15,9 @@
 		<div class="navbar">
 			<img src="homiesImg/homiespizza.jpg" alt="logo" class="logo">
 			<a class="nav" href="homiespizza.php">Home</a>
-			<a class="nav" href="about.php">About Us</a>
-			<a class="nav" href="faq.php">Frequently Asked</a>
-			<a class="nav" href="contact.php">Contact Us</a>
-			
-
+			<a class="nav" href="../about.php">About Us</a>
+			<a class="nav" href="../faq.php">Frequently Asked</a>
+			<a class="nav" href="../coms/contact.php">Contact Us</a>
 		</div>
 	</nav>
 

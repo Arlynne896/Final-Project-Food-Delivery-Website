@@ -24,12 +24,12 @@
                                         Hi, <b>$name</b>!<br>
                                         Thank you for reaching out to us! We truly appreciate it. Your message has been safely delivered to our inbox.
                                         You can expect a reply at <b>$email</b> or on your mobile number <b>$mobile</b>.
-                                    </p>";
+                                    </p><br>";
                 $responseMessage .= "<p> If you need immediate assistance, don't hesitate to reach out. Our reliable customer service team is available at <em>09123456789</em>.</p>";
             }
         }
         if (empty($message)) {
-            $responseMessage .= "<p>I think your message is missing... (o_O) ?</p>";
+            $responseMessage .= "<p>I think your message is missing... (o_O) ?</p><br>";
             $responseMessage .= "<p>If the form on the left is not working, check the box below this response for more details on where to contact us.</p>";
         }
 

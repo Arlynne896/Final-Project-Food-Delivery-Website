@@ -12,21 +12,21 @@
     <title>Contact Us</title>
     <link href="style.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="icon" type="../x-icon" href="../Portion Port Logo.png">
+    <link rel="icon" type="../images/x-icon" href="../images/Portion Port Logo.png">
 </head>
 <body>
     <nav>
       <div class="navbar">
-        <a class="nav" href="../homepage.php">Home</a>
+        <a class="nav" href="../home.php">Home</a>
         <a class="nav" href="../about.php">About Us  </a>
         <div class="dropdown">
           <a href='#' class="dropbtn">Partnership </a>
           <div class="dropdown-content">
-            <a href="../Shops/burger.php">Bur-go Shop</a>
-            <a href="../Shops/coffe.php">Coffee Mate</a>
-            <a href="../Shops/pizza.php">Homie's Pizza</a>
-            <a href="../Shops/sushi.php">Sushi Kitchen</a>
-            <a href="../Shops/tea.html">Tastea Shop</a>
+            <a href="../Bur-Go/burger.php">Bur-go House</a>
+            <a href="../coffee/mate.php">Coffee Mate</a>
+            <a href="../Homie'sPizza/homiespizza.php">Homie's Pizza</a>
+            <a href="../kitchen/sh.php">Sushi Kitchen</a>
+            <a href="../tas/tea.php">Tastea Shop</a>
           </div>
         </div>
         <a class="nav" href="../faq.php">Frequently Asked</a>
@@ -69,7 +69,7 @@
 				<p>
 					After you've clicked the submit. I'll tell you if we've received the message or not. Make sure all the information you've put are correct or else, 
 					we won't be able to contact you. q(╯ᆺ╰๑)
-				</p>
+				</p><br>
 				<?php echo $responseMessage; ?>
 			</div>
 			
@@ -92,7 +92,7 @@
     <hr>
     
     <footer>
-        <p style="margin-left:30px;color:#E8D9CD;"><small>Made by Abalain, Almaida, Catimbang, Cuaño & Morante 2024 © Copyright Intended</small></p>
+        <p><small>Made by Abalain, Almaida, Catimbang, Cuaño & Morante 2024 © Copyright Intended</small></p>
     </footer>
     
     <script>

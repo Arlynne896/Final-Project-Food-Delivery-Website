@@ -1,0 +1,307 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFDBBB;
+}
+nav {
+    background-color: #5C4033;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ff9900;
+}
+.hero {
+    background-image: url('burgo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.menu {
+    padding: 3rem;
+    text-align: center;
+}
+.menu h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.menu-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+.menu-item h3 {
+    margin-top: 0;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.popup-content {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: popup-animation 0.3s ease-out; 
+}
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.close-btn:hover {
+    color: #f78c2b;
+}
+.popup {
+    display: none; 
+    position: fixed; 
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    justify-content: center; 
+    align-items: center; 
+}
+.popup-content {
+    background-color: white; 
+    border-radius: 8px;
+    padding: 20px; 
+    width: 80%;
+    max-width: 900px; 
+    max-height: 80%;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: popup-animation 0.3s ease;
+}
+.popup-content h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.popup-content form {
+    margin-top: 10px;
+}
+.popup-content .order-item {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.popup-content .order-item label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+.popup-content .order-item input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.popup-content button[type="button"] {
+    background-color: #f78c2b;
+    color: white; 
+    border: none; 
+    padding: 8px 12px;
+    border-radius: 5px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease;
+}
+.popup-content button[type="button"]:hover {
+    background-color: #f77b1c;
+}
+.popup-content button[type="submit"] {
+    width: 100%;
+    padding: 12px; 
+    background-color: #333; 
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.2s ease; 
+    margin-top: 15px; 
+}
+
+.popup-content button[type="submit"]:hover {
+    background-color: #444; 
+}
+@keyframes popup-animation {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+#cart-items button {
+    background-color: #e74c3c; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+#cart-items button:hover {
+    background-color: #c0392b;
+}
+#total-cost {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+.order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.order-item label {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+}
+.order-item input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.order-item button {
+    background-color: #f78c2b;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.order-item button:hover {
+    background-color: #f77b1c;
+}
+.order-now-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #f78c2b; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.order-now-btn:hover {
+    background-color: #f77b1c;
+    transform: translateY(-2px); 
+}
+.order-now-btn:active {
+    background-color: #f76b1c;
+    transform: translateY(1px); 
+}
+.about {
+    padding: 2rem;
+    background-color: #5C4033;
+    color: white;
+    text-align: center;
+}
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.contact {
+    padding: 3rem;
+    text-align: center;
+}
+.contact h2 {
+    margin-bottom: 1.5rem;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #ff9900; 
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+.contact-form button:hover {
+    background-color: #e68a00; 
+}
+footer {
+    background-color: #5C4033;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
