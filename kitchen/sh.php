@@ -20,7 +20,8 @@
               <li><a href="#section1">   <i class="fas fa-home"></i>   </li>
               <li><a href="#section2">    <i class="fas fa-shopping-cart"></i></li>
               <li><a href="#section3">  <i class='fas fa-user-friends'></i></li>
-             <li><a href="../home.php"> <i class="fas fa-arrow-left"></i></li>
+              <li><a href="../home.php"> <i class="fas fa-arrow-left"></i></li>
+              <li><a href="#section4">  hasbj</li>
          </ul>
         </nav>
     

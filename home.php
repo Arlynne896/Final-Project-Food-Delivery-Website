@@ -1,3 +1,10 @@
+<?php session_start();
+
+if(isset($_SESSION['Id']) && isset($_SESSION['Username']))
+{
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -277,6 +284,7 @@
                 </div>
                 <a class="nav" href="faq.php">Frequently Asked</a>
                 <a class="nav" href="coms/contact.php">Contact Us</a>
+                <a href="Logout.php" style="margin-left:44%; color:#ffffff; background-color: #0577a4; padding:.5% ;width:75px; border-radius:4px;">Logout</a>
             </div>
         </nav>
         <div class="header">
@@ -662,3 +670,11 @@
 
     </body>
 </html>
+<?php 
+}else 
+{
+    header("Location:mainpage.php");
+    exit();
+
+}
+?>
